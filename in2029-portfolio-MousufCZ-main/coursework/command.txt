@@ -1,0 +1,10 @@
+show
+turnright 4
+move 4
+turnright 4
+move 4
+move 4
+move 4
+move 4
+travelled
+show

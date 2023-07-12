@@ -1,0 +1,18 @@
+class A {
+public:
+	A() { cout << "A()\n"; }
+	virtual ~A() { cout << "~A()\n"; }
+};
+
+class B {
+public:
+	B() { cout << "B()\n"; }
+	~B() { cout << "~B()\n"; }
+};
+
+class C : public A {
+	B b;
+public:
+	C() { cout << "C()\n"; }
+	virtual ~C() { cout << "~C()\n"; }
+};
